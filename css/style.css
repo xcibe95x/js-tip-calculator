@@ -234,20 +234,60 @@ label:hover {
     color: #E17457;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px){
+
+    .logo {
+        padding: 24px;
+    }
+
+    #tip-box {
+        margin-bottom: -24px;
+    }
+
     .container {
         width: 100vw;
         height: 789px;
+        padding: 0;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
     }
 
     .sub-container {
         width: 327px;
         height: 257px;
+        padding: 22px;
+    }
+    
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50%;
+        padding-right: 50%;
+        margin: 0;
+    }
+    
+    .tip-box {
+        width: 100%;
+        margin-bottom: 44px;
+        margin-top: 30px;
+    }
+
+    .radio, .custom-tip {
+        width: 146.63px !important;
     }
 
     input[type="text"] {
         width: 311px;
         height: 48px;
+    }
+
+    button {
+        margin-top: 32px;
+    }
+
+    .price {
+        font-size: 32px;
     }
 }
