@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/xcibe95x/js-tip-calculator/)
-- Live Site URL: [Add live site URL here](https://xcibe95x.github.io/js-tip-calculator/)
+- Solution URL: [GitHub](https://github.com/xcibe95x/js-tip-calculator/)
+- Live Site URL: [Live Page](https://xcibe95x.github.io/js-tip-calculator/)
 
 ## My process
 
