@@ -138,4 +138,7 @@ function calculateTotal() {
 function calculateCustom() {
   tipTotal.innerHTML = '$' + parseFloat(inputCustom.value / inputPeople.value).toFixed(2);
   tipAmount = parseFloat(inputCustom.value / inputPeople.value).toFixed(2);
+  if (tipAmount == Infinity) {
+    tipTotal.innerHTML = defDigit;
+  }
 }
